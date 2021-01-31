@@ -6,18 +6,18 @@ Main_DualRank.m is the main script to call DualRank.
 
 There are some Matlab scripts for each step of DualRank analysis, and called in Main_DualRank.m:
 
-   i. Obtain_ClusterSample.m 
-   ii. Obtain_StatisticScore.m 
-   iii. A_RWR_M.m 
-   iv. A_RWRplus.m 
-   v. NCC_AUC.m 
-   vi. getNormalizedMatrix.m 
-   vii. getMultiplexMatrixFromAdjSet.m 
+    i. Obtain_ClusterSample.m 
+    ii. Obtain_StatisticScore.m 
+    iii. A_RWR_M.m 
+    iv. A_RWRplus.m 
+    v. NCC_AUC.m 
+    vi. getNormalizedMatrix.m 
+    vii. getMultiplexMatrixFromAdjSet.m 
 
 The input datasets include:
 
-   i. GeneExpressionData.xlsx 
-   ii. SparseAdjMatrix.mat
+    i. GeneExpressionData.xlsx 
+    ii. SparseAdjMatrix.mat
 
 The final biomarker list is saved as Biomarker.mat
 
